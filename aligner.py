@@ -11,7 +11,7 @@ Aligns two DNA sequences from a fasta file using a local alignment algorithm.
 
 """
 
-parser = argparse.ArgumentParser(description=description)
+parser = argparse.ArgumentParser(prog='Local_Seq_Aligner', description=description)
 
 ## Introduces the positional arguments filename, method and local
 parser.add_argument("filename")
