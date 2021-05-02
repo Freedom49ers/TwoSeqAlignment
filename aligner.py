@@ -2,8 +2,6 @@ import argparse
 
 from Bio import SeqIO
 from Bio import pairwise2
-from Bio.SeqRecord import SeqRecord
-from Bio.Seq import Seq
 
 description = """
 
