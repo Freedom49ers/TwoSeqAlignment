@@ -28,3 +28,5 @@ def show_results(alns):
 if args.method == "local":
     alignments = pairwise2.align.localxx(seq1.seq, seq2.seq)
     show_results(alignments)
+  
+else print("this is not a valid method. Expected method: local")
